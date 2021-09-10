@@ -98,7 +98,7 @@ a.no-color-change {
 /* カーソルが来たら色を変える */
 a.no-color-change:hover {
     color: red;
-    opacity: 0.75;
+    opacity: 0.8;
 }
 
 
@@ -134,11 +134,11 @@ a.no-color-change:hover {
 .chara-choice {
     width: 96px;
     height: 55px;
-    background-color: black;
+    background-color: white;
     padding: 0px;
     margin-bottom: -9px;
-    margin-right: -0.8px;
-    margin-left: -0.8px;
+    margin-right: -1px;
+    margin-left: -1px;
 }
 
 /* -------------------------------------------タブメニュー--------------------------------------------------------------- */
