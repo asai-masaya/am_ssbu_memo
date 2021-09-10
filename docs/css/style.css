@@ -158,7 +158,6 @@ a.no-color-change:hover {
 .tab_item {
     width: 200px;
     height: 50px;
-    /* border-bottom: 3px solid #5ab4bd; */
     background-color: #d9d9d9;
     line-height: 50px;
     font-size: 16px;
@@ -170,10 +169,11 @@ a.no-color-change:hover {
     font-weight: bold;
     transition: all 0.2s ease;
     cursor: pointer;
+    opacity: 0.6;
 }
 
 .tab_item:hover {
-    opacity: 0.75;
+    opacity: 0.8;
 }
   
 /*ラジオボタンを全て消す*/
@@ -200,9 +200,45 @@ input[name="tab_item"] {
   
 /*選択されているタブのスタイルを変える*/
 .tabs input:checked + .tab_item {
-    background-color: #5ab4bd;
+    background-color: #8e9292;
     color: #fff;
+    opacity: 1;
 }
+
+/*タブのスタイル*/
+.tab_item_index {
+    width: 200px;
+    height: 50px;
+    /* border-bottom: 3px solid #5ab4bd; */
+    background-color: #fff;
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+    color: #565656;
+    display: block;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.tab_item_index:hover {
+    opacity: 0.8;
+}
+
+.tabs input:checked + .tab_item_index {
+    background-color: rgb(231, 228, 228);
+    color:black;
+    border-bottom-color: black;
+    border-bottom: 2px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+}
+
+
 
 /* ------------------------------------テーブルについて--------------------------------------- */
 table.chara-choice {
