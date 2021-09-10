@@ -221,15 +221,16 @@ td.chara-choice-bottom {
 
 /* ----------------------------------------リストについて----------------------------------------------------- */
 /* https://saruwakakun.com/html-css/reference/list-space */
-li.chara-icon-list {
+ul.chara-icon-ul {
+    margin-top: -3px;
+    margin-bottom: -15px;
+}
+
+ul.chara-icon-ul li{
     padding-top : 8px;
     padding-bottom: 8px;
     width: auto;
 } 
 
-ul.chara-icon-ul {
-    margin-top: -3px;
-    margin-bottom: -3px;
-}
 
 
